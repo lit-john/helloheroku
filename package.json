@@ -1,6 +1,6 @@
 {
   "name": "Hello Heroku",
-  "version": "0.10.x",
+  "version": "*",
   "description": "A test app",
   "main": "app.js",
   "scripts": {
