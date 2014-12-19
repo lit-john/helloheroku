@@ -1,3 +1,7 @@
+Make sure you have a package.json file and this it has a
+scripts.start entry
+>npm init
+
 Install heroku-cli on the codio Box
 
 >parts install heroku-cli

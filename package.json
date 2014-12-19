@@ -1,6 +1,6 @@
 {
   "name": "Hello-Heroku",
-  "version": "0.10.25",
+  "version": "1.0.0",
   "description": "A test app",
   "main": "app.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "https://git.heroku.com/safe-oasis-6635.git"
+  },
+  "engines": {
+    "node": "0.10.x"
   },
   "author": "John",
   "license": "ISC"
