@@ -20,3 +20,7 @@ Login to Heroku (you need to have an account)
 >git add .
 >git commit -m "initial code"
 >git push --set-upstream heroku master
+
+To test locally with foreman
+
+> foreman start web
