@@ -20,6 +20,12 @@ Login to Heroku (you need to have an account)
 >git add .
 >git commit -m "initial code"
 >git push --set-upstream heroku master
+>heroku ps:scale web=1
+
+After than it's simple a matter of
+>git add .
+>git commit -m "initial code"
+>git push heroku master
 
 To test locally with foreman
 
