@@ -5,11 +5,16 @@
 * Time: 12:17 PM
 * To change this template use Tools | Templates.
 */
-var http = require('http');
+var express = require('express');
+var app = express();
 
-var server = http.createServer(function(request, response){
-   response.writeHead(200, {'Content-type' : 'text/html'});
-   response.end("<html><body><h1>Hello Heroku</h1></body></html>");
+app.set('port', (process.env.PORT || 5000));
+app.use(express.static(__dirname + '/public'));
+
+app.get('/', function(request, response) {
+  response.send('Hello World!');
 });
 
-server.listen(3000);
+app.listen(app.get('port'), function() {
+  console.log("Node app is running at localhost:" + app.get('port'));
+});
