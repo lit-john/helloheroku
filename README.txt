@@ -6,6 +6,10 @@ Install heroku-cli on the codio Box
 
 >parts install heroku-cli
 
+Install foreman
+
+>gem install foreman
+
 Login to Heroku (you need to have an account)
 
 >heroku login
